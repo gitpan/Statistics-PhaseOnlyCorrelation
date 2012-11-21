@@ -10,7 +10,7 @@ use List::MoreUtils qw/mesh/;
 use vars qw/$VERSION @ISA @EXPORT_OK/;
 
 BEGIN {
-    $VERSION   = '0.01';
+    $VERSION   = '0.02';
     @ISA       = qw{Exporter};
     @EXPORT_OK = qw{poc poc_without_fft};
 }
@@ -113,7 +113,7 @@ Statistics::PhaseOnlyCorrelation - calculate the phase only correlation
 
 =head1 VERSION
 
-This document describes Statistics::PhaseOnlyCorrelation version 0.01
+This document describes Statistics::PhaseOnlyCorrelation version 0.02
 
 
 =head1 SYNOPSIS
@@ -127,7 +127,6 @@ This document describes Statistics::PhaseOnlyCorrelation version 0.01
 
 Or if you want to use own FFT function, you may use like so:
 
-    my $result = Statistics::PhaseOnlyCorrelation::poc_without_fft($array1_fft->cdft(), $array2_fft->cdft());
     use Math::FFT;
     use List::MoreUtils qw/mesh/;
     use Statistics::PhaseOnlyCorrelation qw/poc_without_fft/;

@@ -3,13 +3,13 @@ abstract: 'calculate the phase only correlation'
 author:
   - 'moznion <moznion@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.63
+  ExtUtils::MakeMaker: 6.62
   Test::More: 0.98
   Test::Most: 0.31
 configure_requires:
-  ExtUtils::MakeMaker: 6.63
+  ExtUtils::MakeMaker: 6.62
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+generated_by: 'ExtUtils::MakeMaker version 6.6303, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,4 +25,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/moznion/Statistics--PhaseOnlyCorrelation.git
-version: 0.01
+version: 0.02
